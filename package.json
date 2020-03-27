@@ -18,6 +18,7 @@
   },
   "devDependencies": {
     "@types/jest": "^24.0.19",
+    "@types/node": "^13.9.5",
     "@typescript-eslint/eslint-plugin": "^2.18.0",
     "@typescript-eslint/parser": "^2.18.0",
     "@vue/cli-plugin-babel": "~4.2.0",
@@ -31,14 +32,18 @@
     "@vue/eslint-config-typescript": "^5.0.1",
     "@vue/test-utils": "1.0.0-beta.31",
     "eslint": "^6.7.2",
+    "eslint-config-prettier": "^6.10.1",
     "eslint-plugin-import": "^2.20.1",
+    "eslint-plugin-jest": "^23.8.2",
+    "eslint-plugin-prettier": "^3.1.2",
     "eslint-plugin-vue": "^6.1.2",
     "lint-staged": "^9.5.0",
+    "prettier": "^2.0.2",
     "typescript": "~3.7.5",
     "vue-template-compiler": "^2.6.11"
   },
   "gitHooks": {
-    "pre-commit": "lint-staged"
+    "pre-commit": "lint-staged && yarn test:unit"
   },
   "lint-staged": {
     "*.{js,jsx,vue,ts,tsx}": [
