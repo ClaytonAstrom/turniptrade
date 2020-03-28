@@ -1,4 +1,6 @@
 # turniptrade
+[![Coverage Status](https://coveralls.io/repos/github/ClaytonAstrom/turniptrade/badge.svg?branch=master)](https://coveralls.io/github/ClaytonAstrom/turniptrade?branch=master)  [![Build Status](https://travis-ci.com/ClaytonAstrom/turniptrade.svg?branch=master)](https://travis-ci.com/ClaytonAstrom/turniptrade)
+
 
 ## Project setup
 ```
