@@ -7,3 +7,6 @@ script:
   - yarn lint
   - yarn test:travis
   - yarn build
+branches:
+  only: 
+    - master
